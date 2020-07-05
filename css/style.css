@@ -1,0 +1,165 @@
+/* Color Theme Swatches in Hex */
+.kids-complementar-1-hex { color: #F59377; }
+.kids-complementar-2-hex { color: #FFCF32; }
+.kids-complementar-3-hex { color: #A55FEE; }
+.kids-complementar-4-hex { color: #3AAFFF; }
+.kids-complementar-5-hex { color: #73D676; }
+
+/* Color Theme Swatches in RGBA */
+.kids-complementar-1-rgba { color: rgba(245, 147, 119, 1); }
+.kids-complementar-2-rgba { color: rgba(255, 207, 50, 1); }
+.kids-complementar-3-rgba { color: rgba(165, 95, 238, 1); }
+.kids-complementar-4-rgba { color: rgba(58, 175, 255, 1); }
+.kids-complementar-5-rgba { color: rgba(115, 214, 118, 1); }
+
+/* Color Theme Swatches in HSLA */
+.kids-complementar-1-hsla { color: hsla(13, 86, 71, 1); }
+.kids-complementar-2-hsla { color: hsla(45, 100, 59, 1); }
+.kids-complementar-3-hsla { color: hsla(269, 80, 65, 1); }
+.kids-complementar-4-hsla { color: hsla(204, 100, 61, 1); }
+.kids-complementar-5-hsla { color: hsla(121, 54, 64, 1); }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(58, 175, 255, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 50px;
+  }
+  .site-header a {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #333;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+   .bg-content {
+       background-color: #ede0f9;
+       border-radius: 20px;
+       background-image: url('../img/logo.svg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center; 
+       height: 50vh; 
+    }
+
+   .bg-text {
+       width: 100%;
+       background-color: rgba(255, 255, 255, 0.5);
+       border-radius: 20px;
+   }
+
+   .bg-cards {
+       background-image: url('../img/cards.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-color: #fff;
+   }
+
+   .bg-book {
+       background-image: url('../img/create-book.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-color: #333;
+   }
+
+   .bg-coin {
+       background-image: url('../img/congrats.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-color: #333;
+   }
+
+   .bg-editora {
+       background-image: url('../img/editora.png');
+       background-repeat: no-repeat;
+       background-position: top center;
+       background-color: #fff;
+   }
+
+   .bg-teach {
+       background-image: url('../img/editora.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-color: #fff;
+   }
+
+   .bg-certificado {
+       background-image: url('../img/start.svg');
+       background-repeat: no-repeat;
+       background-position: bottom;
+       background-color: #333;
+   }
+
+  .bg-light {
+      border-radius: 20px;
+  }
+
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
