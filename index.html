@@ -11,19 +11,27 @@
 </head>
 <body>
 
-    <header>
+
     <nav class="navbar navbar-expand-lg site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         <a class="py-2 d-flex d-md-inline-block" href="#">Sobre</a>
         <a class="py-2 d-flex d-md-inline-block" href="#">Contato</a>
-        <a class="py-2 d-flex d-md-inline-block" href="login.html">Login</a>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Login
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="class.html">Professor</a>
+            <a class="dropdown-item" href="parents.html">Responsável</a>
+          </div>
+        </div>
       </div>
     </nav>
-    </header>
+
     
     <div class="bg-content position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
       <div class="bg-text col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Lorem Ipsum</h1>
+        <h1 class="display-4 font-weight-normal">SeedBook</h1>
         <p class="lead font-weight-normal">Uma nova forma de ler e escrever, onde a regra é sem limites para imaginação.</p>
         <a class="btn btn-outline-secondary" href="#">Coming soon</a>
       </div>
@@ -81,8 +89,8 @@
       
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 p-3">
-          <h2 class="display-5">Certificados</h2>
-          <p class="lead">Desenvolvimento do nível de leitura na plataforma, através de Certificados.</p>
+          <h2 class="display-5">Conquista</h2>
+          <p class="lead">Desenvolvimento do nível de leitura na plataforma, através de conquistas.</p>
         </div>
         <div class="bg-certificado shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
@@ -103,7 +111,8 @@
         <div class="col-6 col-md">
           <h5 class="text-white">Contatos</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Email</a></li>
+            <li>
+            <a class="text-muted" href="mailto:appseedbook@gmail.com">Email</a></li>
             <li><a class="text-muted" href="#">Telefone</a></li>
           </ul>
         </div>
