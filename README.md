@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="SeedBook logo" src="img/logo.svg" width="400px" />
+    <img alt="SeedBook logo" src="img/logo_seedbook.svg" width="400px" />
 </h1>
 
 <h3 align="center">
